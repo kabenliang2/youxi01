@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AiListing - Monster Survivors Game | Play Online</title>
+    <meta name="description" content="Play Monster Survivors, an exciting online survival game where you battle against waves of monsters. Experience thrilling gameplay and strategic combat in this Unity-powered adventure.">
+    <link rel="canonical" href="https://ailisting.cn" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f5f5f7;
+        }
+        .game-container {
+            aspect-ratio: 16/9;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body class="min-h-screen">
+    <header class="bg-white shadow-sm">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+            <div class="flex justify-between items-center">
+                <h1 class="text-2xl font-bold text-gray-900">AiListing</h1>
+                <div class="flex space-x-4">
+                    <a href="#game" class="text-gray-600 hover:text-gray-900">Play Now</a>
+                    <a href="#about" class="text-gray-600 hover:text-gray-900">About</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <section id="hero" class="text-center mb-12">
+            <h2 class="text-4xl font-bold text-gray-900 mb-4">Monster Survivors</h2>
+            <p class="text-xl text-gray-600 mb-8">Survive the monster apocalypse in this thrilling online adventure</p>
+        </section>
+
+        <section id="game" class="mb-12">
+            <div class="game-container bg-white rounded-lg shadow-lg overflow-hidden">
+                <iframe 
+                    src="https://cloud.onlinegames.io/games/2025/unity/monster-survivors/index-og.html" 
+                    class="w-full h-full border-0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </section>
+
+        <section id="about" class="bg-white rounded-lg shadow-lg p-8 mb-12">
+            <h2 class="text-3xl font-bold text-gray-900 mb-6">About Monster Survivors</h2>
+            <div class="prose max-w-none">
+                <p class="text-gray-600 mb-4">
+                    Monster Survivors is an engaging online survival game that puts your strategic thinking and combat skills to the test. Built with Unity, this game offers a seamless gaming experience across all devices.
+                </p>
+                <h3 class="text-2xl font-semibold text-gray-900 mt-6 mb-4">Game Features</h3>
+                <ul class="list-disc list-inside text-gray-600 space-y-2">
+                    <li>Intense monster battles</li>
+                    <li>Strategic gameplay mechanics</li>
+                    <li>Responsive controls</li>
+                    <li>Cross-platform compatibility</li>
+                    <li>Regular updates and improvements</li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-white border-t">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
+            <p class="text-center text-gray-500">© 2024 AiListing. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
